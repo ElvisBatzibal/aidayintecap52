@@ -56,6 +56,11 @@ namespace webaiday.Controllers
                     model.ApiResponse = root.GetProperty("response").GetString();
                     model.Context = root.GetProperty("context").GetString();
                     model.Prompt = root.GetProperty("prompt").GetString();
+
+                    if (String.IsNullOrEmpty(model.ApiResponse))
+                    {
+                        model.ApiResponse = "No se recibió respuesta del API.";
+                    }
                 }
                 else
                 {
