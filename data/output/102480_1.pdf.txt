@@ -1,0 +1,86 @@
+Tornillo autorroscante torx. int. 4x14
+Tuerca extensión24 950788 R24-MAX-20SC
+R27-MAX-20SC 27 950789
+Cubierta decorativa del chasis R23-MAX-20SC 23 950787
+Biela R21-MAX-20SC 21 950785
+Anillo sísmico 5x7 22 950786 R22-MAX-20SC
+Varilla de empuje
+Resorte de presión de cambio18 950782 R18-MAX-20SC
+R19-MAX-20SC 19 950783
+Ensamble de interruptor R17-MAX-20SC 17 950781
+Resorte de reinicio 20 950784 R20-MAX-20SC
+Tornillo penetrante 3x12
+Deﬂector de aire14 950778 R14-MAX-20SCR15-MAX-20SC 15 950779
+No. Clave Código Descripción
+Tornillo cbz.cilindrica con hex.int. 6x14
+Brida delantera
+Tornillo cruceta 3x10
+Placa de prensa de escudo 37x46x2.5
+Mango de escudo
+Escudo móvil
+Muelle de protección
+Ensamble de caja de engranajes y motor
+Resorte
+Soporte de lámpara
+Tornillo autorroscante1 950766 R1-MAX-20SCR2-MAX-20SC
+R5-MAX-20SC
+R6-MAX-20SC
+R7-MAX-20SC
+R8-MAX-20SC
+R9-MAX-20SC
+R10-MAX-20SC
+R11-MAX-20SC
+R12-MAX-20SC
+R13-MAX-20SCBrida trasera2 950767
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13950768
+950769
+950770
+950771
+950772
+950773
+950774
+950775
+950776
+950777R4-MAX-20SC
+Juego de carcasas 16 950780 R16-MAX-20SCSierra circular inalámbrica 6-1/2", 20V Código: 102480 Clave: MAX-20SC
+Primavera de la pagoda
+Tornillo de bloqueo35 950795 R35-MAX-20SC
+R36-MAX-20SC 36 950796
+Tornillo de cuello cuadrado doble rosca
+Calce 6x12x1.5
+Tuerca de bloqueo
+Mango de bloqueo ánguloR29-MAX-20SC
+R32-MAX-20SC
+R33-MAX-20SC
+R34-MAX-20SC29
+32
+33
+34950791
+950792
+950793
+950794
+Tornillo de posicionamiento 5x10 37 950797 R37-MAX-20SC
+Ensamble de zapata R25-MAX-20SC 25 950798
+Pasador cilíndrico elástico 6x35 R28-MAX-20SC 28 95079010
+12345678
+11121314151617
+918
+19
+20
+21
+222324
+27
+28 3233
+34
+3536
+3716
+2925

@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  api:
+    build: .
+    ports:
+      - "5001:5000"
+    environment:
+      FLASK_APP: app.py
+      FLASK_RUN_HOST: 0.0.0.0
+      DB_HOST: postgres   # 'db' es el nombre del servicio en el otro compose
+    networks:
+      - shared_net
+
+networks:
+  shared_net:
+    external: true

@@ -1,0 +1,7 @@
+/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/generaweb/webaiday/obj/Debug/net8.0/webaiday.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/generaweb/webaiday/obj/Debug/net8.0/webaiday.AssemblyInfoInputs.cache
+/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/generaweb/webaiday/obj/Debug/net8.0/webaiday.AssemblyInfo.cs
+/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/generaweb/webaiday/obj/Debug/net8.0/webaiday.csproj.CoreCompileInputs.cache
+/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/generaweb/webaiday/obj/Debug/net8.0/webaiday.MvcApplicationPartsAssemblyInfo.cache
+/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/generaweb/webaiday/obj/Debug/net8.0/webaiday.RazorAssemblyInfo.cache
+/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/generaweb/webaiday/obj/Debug/net8.0/webaiday.RazorAssemblyInfo.cs

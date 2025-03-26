@@ -1,0 +1,27 @@
+@model webaiday.Models.QueryViewResponse
+
+@{
+    ViewData["Title"] = "Consulta a la API";
+}
+
+<h1>Consulta a la API Flask</h1>
+
+<form asp-action="Index" method="post">
+    <div class="form-group">
+        <label for="Query">Consulta:</label>
+        <input type="text" id="query" name="query" class="form-control" value="@Model.Query" placeholder="Ingresa tu consulta" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.ApiResponse))
+{
+    <hr />
+    <h2>Respuesta de la API</h2>
+    <div>
+        <strong>Consulta:</strong> @Model.Query <br /><br />
+        <strong>Contexto:</strong> @Model.Context <br /><br />
+        <strong>Prompt:</strong> @Model.Prompt <br /><br />
+        <strong>Respuesta:</strong> @Model.ApiResponse <br /><br />
+    </div>
+}
