@@ -1,0 +1,104 @@
+# ==============================
+# Archivos y carpetas de Python
+# ==============================
+# Archivos bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de PyInstaller
+*.manifest
+*.spec
+
+# Logs e informes de pruebas
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de IPython
+profile_default/
+ipython_config.py
+
+# Archivos de documentación Sphinx
+docs/_build/
+
+# Archivos de proyectos de PyBuilder
+target/
+
+# Archivos de bases de datos locales (ej. SQLite)
+*.sqlite3
+
+# ==============================
+# Archivos y carpetas de Visual Studio Code
+# ==============================
+.vscode/
+
+# ==============================
+# Archivos y carpetas de Visual Studio
+# ==============================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Otros archivos temporales de Visual Studio
+_ReSharper*/
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.ilk
+*.log
+*.obj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+
+# ==============================
+# Otros
+# ==============================
+# Archivos de configuración local
+*.local
