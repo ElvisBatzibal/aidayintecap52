@@ -1,0 +1,5 @@
+PyMuPDF
+pytesseract
+PyPDF2
+Pillow
+psycopg2-binary
