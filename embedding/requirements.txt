@@ -1,3 +1,0 @@
-psycopg2-binary       # Para conectarse a PostgreSQL
-sentence-transformers # Para generar embeddings
-numpy                 # Dependencia de SentenceTransformers para manejar vectores
