@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL del endpoint de la API
-API_URL="http://127.0.0.1:5000/query"
+API_URL="http://172.22.0.3:5000/query"
 
 # Consulta que deseas enviar
 QUERY_TEXT="¿Blister con 10 anclajes para redes cual es el limite de carga?"
