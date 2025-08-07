@@ -33,6 +33,12 @@ def process_pdf_files(directory):
         if filename.lower().endswith('.pdf'):
             pdf_path = os.path.join(directory, filename)
             text = extract_text_from_pdf(pdf_path)
+            
+            # Validar si se extrajo texto del PDF
+            if not text.strip():
+                print(f"[Advertencia] No se extrajo texto del archivo: {pdf_path}")
+                continue
+            
             documents.append({
                 'file_name': filename,
                 'doc_type': 'pdf',
@@ -76,7 +82,8 @@ def insert_document(conn, doc):
 
 def main():
     # Rutas de las carpetas de PDFs e imágenes
-    pdf_dir = '/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/data/pdfs'
+    #pdf_dir = '/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/data/pdfs'
+    pdf_dir = '/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/data/dpis'
     img_dir = '/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/data/img'
     output_dir = '/Users/elvysbatzibal/EBSolTech/OpenShareTechnology/intecap52/data/output'
 
