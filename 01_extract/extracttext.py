@@ -3,6 +3,31 @@ import PyPDF2
 from PIL import Image
 import pytesseract
 import psycopg2
+from pdf2image import convert_from_path
+import fitz  # PyMuPDF
+from paddleocr import PaddleOCR
+
+# Inicializar PaddleOCR
+ocr = PaddleOCR(use_textline_orientation=True, lang='es')
+
+def extract_text_with_paddleocr(image_path):
+    try:
+        result = ocr.ocr(image_path, cls=True)
+        text = "\n".join([line[1][0] for line in result[0]])
+    except Exception as e:
+        print(f"Error al procesar {image_path} con PaddleOCR: {e}")
+        text = ""
+    return text
+
+def extract_text_with_pymupdf(pdf_path):
+    text = ""
+    try:
+        pdf_document = fitz.open(pdf_path)
+        for page in pdf_document:
+            text += page.get_text()
+    except Exception as e:
+        print(f"Error al procesar {pdf_path} con PyMuPDF: {e}")
+    return text
 
 # Función para extraer texto de un PDF
 def extract_text_from_pdf(pdf_path):
@@ -12,6 +37,18 @@ def extract_text_from_pdf(pdf_path):
             pdf_reader = PyPDF2.PdfReader(f)
             for page in pdf_reader.pages:
                 text += page.extract_text() or ""
+        # Si no se extrajo texto, usar OCR como respaldo
+        if not text.strip():
+            print(f"[Advertencia] No se extrajo texto del archivo: {pdf_path}. Intentando con OCR...")
+            text = extract_text_with_paddleocr(pdf_path)
+            # Si aún no se extrajo texto, intentar con PyMuPDF
+            if not text.strip():
+                print(f"[Advertencia] OCR no extrajo texto del archivo: {pdf_path}. Intentando con PyMuPDF...")
+                text = extract_text_with_pymupdf(pdf_path)
+                if not text.strip():
+                    print(f"[Advertencia] PyMuPDF no extrajo texto del archivo: {pdf_path}.")
+                    text = ""
+
     except Exception as e:
         print(f"Error al procesar {pdf_path}: {e}")
     return text

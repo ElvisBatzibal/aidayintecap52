@@ -3,3 +3,7 @@ pytesseract
 PyPDF2
 Pillow
 psycopg2-binary
+pdf2image
+setuptools
+paddlepaddle
+paddleocr
